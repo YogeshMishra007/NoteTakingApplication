@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+  background: hsla(348, 88%, 66%, 1);
+
+  background: linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
+  
+  height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: #37306B;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 #D27685;
+}
+header h1{
+    text-align: center;
+    color: beige;
+    font-family: 'McLaren', cursive;;
+    font-weight: 250;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    margin-top: 10px;
+
+}
+footer p{
+    color: #7e0246;
+}
+
+.note{
+    background:#fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px #D27685;
+    padding: 10px;
+    width: 250px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.note p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note button{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    color: #7e0246;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+}
+.errormsg{
+    color: red;
+}
+form{
+    position: relative;
+    width: 500px;
+    margin: 30px auto 30px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #D27685;
+
+}
+
+form input,form textarea{
+    width: 100%;
+    border: none;
+    padding:5px;
+    outline: none;
+    font-size: 1.5em;
+    font-family: inherit;
+    resize: none;
+}
+
+form button{
+    position: absolute;
+    right: 20px;
+    bottom: 1px;
+    background:#37306B;
+    border: none;
+    color: #fff;
+    border-radius: 20%;
+    width: 80px;
+    height: 40px; 
+    box-shadow: 0px 5px 5px #D27685;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+
